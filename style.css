@@ -1,0 +1,247 @@
+/* TODO(you): Write the CSS to finish the assignment! */
+body {
+    font-family: 'Proxima Nova', 'Helvetica', 'Arial', sans-serif;
+    font-size: 18px;
+    color: #222222;
+    margin: auto;
+    width: 700px;
+}
+
+#class {
+    display: flex;
+    width: 700px;
+    border: 0.1px solid #ccc;
+    justify-content:space-between;
+    height: 80px;
+    margin: auto;
+}
+
+#class_name {
+    display: flex;
+    align-items: center;
+}
+
+#head {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ee3322;
+    margin-left: 20px;
+}
+
+.class_name-item {
+    background-color: #ffee00;
+    border-radius: 100%;
+    font-weight: bold;
+    transform: rotate(-30deg);
+    text-align: center;
+    margin-right: 5px;
+    padding: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+#quiz-name {
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    background-size: cover;  
+    height: 425px;
+    width: 700px;
+    margin: auto;
+}
+
+.quiz_name {
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 75%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+.quiz_name h1 {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+    font-family: 'Pangolin',cursive;
+}
+
+.author {
+    font-size: 14px;
+    text-align: center;
+}
+
+.quiz-rule .author {
+    line-height: 18px;
+}
+
+.quiz-rule .b{
+    line-height: 18px;
+}
+
+#start {
+    color: black;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 50px;
+    margin-bottom: 50px;
+}  
+
+.button1 {
+    background-color: #2196f3;
+    font-size: 20px;
+    color: white;
+    padding: 18px ;
+    border: none;
+}
+
+.button1:hover {
+    background-color: #0d8bf2;
+}
+
+.tab {
+    display: flex;
+    padding: 20px;
+    height: 27px;
+    margin-bottom: 1px;
+    background-color: #f1f1f1;
+}
+
+.opt{
+    justify-content: space-between;
+    display: flex;
+}
+
+.checka {
+    display: flex;
+}
+
+.correct_answer {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    margin-left: 400px;
+}
+
+.your_answer {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    margin-left: 400px;
+}
+
+.tab:hover {
+    background-color: #ddd;
+}
+
+.selected{
+    background-color: #ddd;
+}
+
+input:checked + label {
+    background-color: #ddd;
+}
+
+.submit {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.button2 {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 18px;
+    border: none;
+}
+
+.button2:hover {
+    background-color: #46a049;
+}
+
+.button3 {
+    background: #2196f3;
+    color: white;
+    font-size: 18px;
+    padding: 18px;
+    margin-top: 30px;
+    border: none;
+}
+
+.l {
+    font-size: 24px;
+}
+
+.button3:hover {
+    background-color: #0d8bf2;
+}
+
+.submit-hidden {
+    text-align: center;
+    background-color: #f1f1f1;
+    margin: 30px solid #f1f1f1;
+    padding: 20px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.correct_answer {
+    position: sticky;
+    padding: 5px;
+    background-color: #cae8ca;
+    border:#cae8ca solid 1px;
+}
+
+.correct_answer {
+    display: none;
+}
+
+.review {
+    text-align: center;
+    background-color: #f1f1f1;
+    margin: 30px solid #f1f1f1;
+    padding: 20px;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#btn-try-again {
+    background-color: #2196f3;
+    font-size: 20px;
+    color: white;
+    padding: 18px ;
+    border: none;
+}
+
+#btn-try-again:hover {
+    background-color: #0d8bf2;
+}
+
+.review_item {
+    margin: 2px;
+}
+
+#review_item-per {
+    font-weight: 600;
+}
+
+/** Chỉnh màn phù hợp với thiết bị **/
+@media(max-width: 700px){
+    #flex-container{
+        width: 95%;
+        margin: auto;
+    }
+    #quiz-name{
+        width: 95%;
+        margin: auto;
+    }
+}
+@media(max-width: 500px){
+    #flex-subcontainer{
+        display: none;
+    }
+}

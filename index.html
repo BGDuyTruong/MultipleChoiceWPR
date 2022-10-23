@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- TODO(you): Make whatever changes needed to complete the assignment! -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer="true"></script>
+</head>
+
+<body>
+
+  <!--
+
+    ******************************************
+    DO NOT TRANSCRIBE THE ARTICLE YOURSELF!!!!
+    ******************************************
+
+    You do not have to type in all of the text on the page!
+
+    The contents of the article is in `index-content.txt`, which is
+    included in this directory. Copy and paste the contents of that file into
+    this HTML file as needed. You should only need to add HTML to markup the
+    content.
+
+  -->
+
+  <header>
+    <!-- Phần thanh menu trên đỉnh -->
+    <div id="class">
+      <h1 id="head">WPR</h1>
+      <div id="class_name">
+        <span class="class_name-item">M</span>
+        <span class="class_name-item">E</span>
+        <span class="class_name-item">R</span>
+        <span class="class_name-item">N</span>
+      </div>
+    </div>
+  </header>
+
+  <div>
+
+    <div id="quiz-name"> 
+      <!-- Tên Quiz và Tên tác giả -->
+      <div class="quiz_name">
+          <h1>HTML Quiz</h1>
+      </div>
+     
+    </div>
+    <div class="author">
+      <p>By Tran Duy Truong</p>
+    </div>
+
+    <div id="introduction">
+      <!-- Mô tả quiz -->
+      <p class="quiz-rule">
+          <h2>The test</h2>
+          <p>The test contains 10 questions and there is no time limit.</p>
+          <p>The test is not official, it's just a nice way to see how much you know, or don't know, about HTML.</p>
+          <h2>Count Your Score</h2>
+          <p>You will get 1 point for each correct answer. At the end of the Quiz, your total score will be displayed. Maximum score is 10 points.</p>
+          </p><br/>
+      
+      <!-- Box bắt đầu quiz -->
+      <div id="start">
+        <h2>Start the quiz</h2>
+        <p>Good luck!</p>
+        <button class="button1" id="btn-start">Start the HTML quiz ></button>
+      </div>
+    </div>
+   
+   
+   <!-- Danh sách 10 câu hỏi -->   
+   
+    <section id="attemp-quiz" class="hidden" hidden>
+
+
+    <!-- Câu hỏi 1 -->
+
+        <div id="a">
+       <h2>Question 1 of 5</h2>
+        <p>Choose the correct HTML element for the largest heading:</p><br/> 
+          <div class="tab">          
+          
+              <input type="radio" name="quiz1" value="1">&nbsp; < head >
+              <div class="correct_answer hidden">Correct answer</div>
+            </div>
+            
+          <div class="tab">          
+          
+            <div class="checka">
+              <input type="radio" name="quiz1" value="2">&nbsp;< h6 > 
+            </div>                      
+          
+          </div>
+          <div class="tab">            
+          
+            <div class="checka">
+              <input type="radio" name="quiz1" value="3">&nbsp;< heading >
+            </div>            
+          
+          </div>
+          <div class="tab">            
+          
+            <div class="checka">
+              <input type="radio" name="quiz1" value="4">&nbsp;< h1 >
+            </div> 
+            </div>
+    </div> 
+
+    <!-- Câu hỏi 2 -->
+
+
+        <div id="a">
+       <h2>Question 2 of 5</h2>
+        <p>Which character is used to indicate an end tag?</p><br/> 
+          <div class="tab">          
+          
+              <input type="radio" name="quiz2" value="1">&nbsp;*
+              <div class="correct_answer hidden">Correct answer</div>
+            </div>
+            
+          <div class="tab">          
+          
+            <div class="checka">
+              <input type="radio" name="quiz2" value="2">&nbsp;/
+            </div>                      
+          
+          </div>
+          <div class="tab">            
+          
+            <div class="checka">
+              <input type="radio" name="quiz2" value="3">&nbsp;<
+            </div>            
+          
+          </div>
+          <div class="tab">            
+          
+            <div class="checka">
+              <input type="radio" name="quiz2" value="4">&nbsp;^
+            </div> 
+            </div>
+    </div>
+
+
+      <!-- Câu hỏi 3 -->
+
+        <div id="a">
+       <h2>Question 3 of 5</h2>
+        <p>Inline elements are normally displayed without starting a new line.</p><br/> 
+          <div class="tab">          
+          
+              <input type="radio" name="quiz3" value="1">&nbsp;True
+              <div class="correct_answer hidden">Correct answer</div>
+            </div>
+            
+          <div class="tab">          
+          
+            <div class="checka">
+              <input type="radio" name="quiz3" value="2">&nbsp;False
+            </div>                      
+          
+    </div> 
+
+
+    <!-- Câu hỏi 4 -->
+
+        <div id="a">
+       <h2>Question 4 of 5</h2>
+        <p>An < iframe > is used to display a web page within a web page.</p><br/> 
+          <div class="tab">          
+          
+              <input type="radio" name="quiz4" value="1">&nbsp;False
+              <div class="correct_answer hidden">Correct answer</div>
+            </div>
+            
+          <div class="tab">          
+          
+            <div class="checka">
+              <input type="radio" name="quiz4" value="2">&nbsp;There is no such thing as an < iframe > 
+            </div>                      
+          
+          </div>
+          <div class="tab">            
+          
+            <div class="checka">
+              <input type="radio" name="quiz4" value="3">&nbsp;True
+            </div>            
+          
+    </div> 
+
+
+    <!-- Câu hỏi 5 -->
+
+        <div id="a">
+       <h2>Question 5 of 5</h2>
+        <p>HTML comments start with < !-- and end with -- ></p><br/> 
+          <div class="tab">          
+          
+              <input type="radio" name="quiz5" value="1">&nbsp;True
+              <div class="correct_answer hidden">Correct answer</div>
+            </div>
+            
+          <div class="tab">          
+          
+            <div class="checka">
+              <input type="radio" name="quiz5" value="2">&nbsp;False 
+            </div>                      
+          
+    </div> 
+
+       
+    </section>
+     <!-- Box submit quiz -->
+
+    <section class="submit-hidden" id = "a" hidden>
+           <button class="button2" id="btn-submit">Submit your answer ></button>
+    </section>  
+
+    <!-- Box review answer -->
+    <div class="review" id="box-result" hidden>
+      <h2 class="review_item">Result:</h2> </br>
+      <p class="review_item">1/10</p> </br>
+      <p class="review_item" id="review_item-per">10%</p> </br>
+      <p class="review_item">practive more to improve it :D</p> </br>
+      <button class="review_item" id="btn-try-again">Try again</button>
+    </div>
+
+  </div>
+</body>
+
+</html>
